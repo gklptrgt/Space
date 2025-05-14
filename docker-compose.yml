@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  silverbullet:
+    image: ghcr.io/silverbulletmd/silverbullet:v2
+    container_name: silverbullet
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/space
+    environment:
+      - SB_USER=gklp:Gokalp4455@
+    restart: unless-stopped

@@ -1,0 +1,12 @@
+{
+  "jwtSecretKey": {
+    "kty": "oct",
+    "k": "yOmLjOSK3kMcO-Ox06Z3qxh5AXACo8OsbmllroZGIrRrOIIjZrmPxaOi5m0RsVzplb0glNj0Ctul43HK4YNpz_wa5iE8S-gTWeAiUSNY9RdwNdCfLUC5u7GNvFplHRENich4HjN9idp8a7Td8j0ohXkecJJV6NJeXDUfuhw1DBQ",
+    "alg": "HS512",
+    "key_ops": [
+      "sign",
+      "verify"
+    ],
+    "ext": true
+  }
+}
